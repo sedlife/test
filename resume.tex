@@ -1,0 +1,180 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{hyperref}
+    \usepackage{enumitem}
+    \setlist{nosep}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage{tgschola}
+    \usepackage[left=0.5in,right=0.5in,bottom=0.2in,top=0.2in]{geometry}
+
+% ----------- Definations -----------
+
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+% ----------- End of definations -----------
+
+\begin{document}
+% ----------- Profile -----------
+
+\begin{center}
+	{\Huge \scshape {Aryan Pathania}}\\
+	Himachal, India $\cdot$ \href{mailto: aryan.pathania2003@gmail.com}{aryan.pathania2003@gmail.com} $\cdot$ +91 94592 55020\\
+\end{center}
+
+\vspace{1.5mm}
+% ----------- Education -----------
+
+\header{Education}
+\vspace{1mm}
+
+\textbf{National Institute of Technology, Hamirpur}\hfill Hamirpur\\
+Computer Science \& Enginnering, B.Tech., \textit{CGPA: 8.75} \hfill Dec 2020 - Present\\
+\vspace{1.5mm}
+
+
+% ----------- Experience -----------
+
+\header{Experience}
+\vspace{1mm}
+
+\textbf{CSEC NITH} \hfill NIT Hamirpur\\
+\textit{Executive} \hfill Apr 2021 - Present\\
+\begin{itemize}
+	\item Designed problems and wrote editorials for monthly programming contest, Heuristics.
+	\item Volunteered on 'Software Freedom Day', promoted FOSS and installed linux distributions on more than 50 personal computers.
+\end{itemize}
+\vspace{1.5mm}
+
+\textbf{CodeChef NITH Chapter} \hfill NIT Hamirpur\\
+\textit{Chapter Leader} \hfill Jul 2021 - Jan 2022\\
+\begin{itemize}
+    \item Worked in a team of 4 to promote competitive programming culture in college.
+	\item Organized workshops on topics 'Introduction to Competitive Programming' and 'STL', each having more than 100 attendees.
+	\item Conducted numerous competitive programming contests like 'Regular Contest 1', 'CP Liftoff' etc, having more than 50 participants each.
+\end{itemize}
+\vspace{1.5mm}
+
+\textbf{CutefishOS Ubuntu}\\
+\textit{Contributor} \hfill Apr 2021 - Dec 2021\\
+\begin{itemize}
+	\item Managed the dependencies of 10 core applications while porting from Arch base to Ubuntu base.
+	\item Generated .deb packages from PKGBUILD files for all 10 applications.
+	\item Set up GitHub actions, which runs every 12 hours to keep Ubuntu base fork up to sync with Arch base.
+\end{itemize}
+\vspace{1.5mm}
+
+% ----------- Projects -----------
+
+\header{Projects}
+\vspace{1mm}
+
+{\textbf{NFT Warranty}} {\sl Svelte, Ethereum/Solidity, Hardhat} \hfill \href{https://github.com/aynp/nft-warranty}{aynp/nft-warranty}\\
+\begin{itemize}
+	\item Replace physical warranties and have blockchain based warranties using NFTs.
+	\item NFT based warranties prevents forgery and are easy to maintain.
+    \item Customers can easily verify the ownership of warranty and track all repairs and replacements to the product.
+\end{itemize}
+\vspace*{1.5mm}
+
+{\textbf{Dracula Wallpapers Website}} {\sl ReactJS} \hfill \href{https://dracula-wallpapers.netlify.app/}{dracula-wallpapers.netlify.app}\\
+\begin{itemize}
+	\item Website having collection wallpapers based on the Dracula Theme.
+	\item Created 80+ wallpapers \href{https://github.com/aynp/dracula-wallpapers}{aynp/dracula-wallpapers} (200+ stars).
+\end{itemize}
+\vspace*{1.5mm}
+
+{\textbf{Pathfinding Algorithm Visualizer}} {\sl ReactJS} \hfill \href{https://github.com/aynp/pathfinding-algorithm-visualizer}{aynp/pathfinding-algorithm-visualizer}\\
+\begin{itemize}
+	\item Visualize various pathfinding and maze solving algorithms.
+	\item 4 pathfinding and maze solving algorithms - Dijkstra, A* Search, BFS, DFS.
+	\item 2 maze genration algorithms - Recursive Division, Random Maze.
+\end{itemize}
+\vspace*{1.5mm}
+
+{\textbf{CodeShare}} {\sl ExpressJS, MongoDB/Mongoose, bcrypt} \hfill \href{https://github.com/aynp/codeshare-server}{aynp/codeshare-server}\\
+\begin{itemize}
+	\item Server for CodeShare (A web app to share formatted code with syntax highlighting online.
+\end{itemize}
+\vspace*{1.5mm}
+
+
+% ----------- Awards -----------
+
+\header{Awards}
+\vspace{1mm}
+
+\textbf{Google 30 Days of Cloud} \hfill Qwiklabs\\
+Completed Google 30 Days of Cloud on \href{https://www.qwiklabs.com/public_profiles/4c78c6d8-ad43-4991-b8fe-03e559c1bac5}{Qwiklabs}. \hfill 31 Oct 2021\\
+\vspace*{1mm}
+
+\textbf{The Grand Coding Contest} \hfill Newton School\\
+Ranked \href{https://www.linkedin.com/posts/aryanpathania03_aryan-has-secured-rank-495-in-newtons-grand-activity-6841777869484642304-YhKD}{495th} among 50,000+ contestants in The Grand Newton Contest 2021 by Newton School. \hfill 27 Aug 2021\\
+\vspace*{1mm}
+
+\textbf{Teams Code Virtual Programming Contest} \hfill TeamsCode\\
+Team (no\_AC) Ranked \href{https://youtu.be/eCylTCHctY0?t=16137}{4th} in Summer 2021 Virtual Programming Contest by TeamsCode. \hfill 1 Aug 2021\\
+\vspace*{1mm}
+
+\textbf{CodeRush Rank 1 from Second Year} \hfill Algo University\\
+Ranked 1st from second year in CodeRush organized by ALGO University. \hfill 20 May 2021\\
+\vspace*{1.5mm}
+
+
+
+% ----------- Skills -----------
+
+\header{Skills}
+\vspace{1mm}
+\begin{tabular}{ l l }
+	\textbf{Programming Languages:} & JavaScript, TypeScript, C++ \\
+	\textbf{Frameworks:} & React, Next.js, Svelte, Express \\
+	\textbf{Scripting Languages:} & Bash \\
+	\textbf{Markup Languages:} & HTML/CSS, Markdown, \LaTeX \\
+	\textbf{Databases:} & MongoDB \\
+	\textbf{Tools:} & Git, GNU/Linux \\
+	\textbf{Data Structures and Algorithms} \\
+\end{tabular}
+\vspace{1.5mm}
+
+
+% ----------- Links -----------
+
+\header{Profiles}
+\vspace{1mm}
+
+{\textbf{LinkedIn}} \hfill \href{https://www.linkedin.com/in/aryanpathania03/}{aryanpathania03}\\
+{\textbf{GitHub}} \hfill \href{https://www.github.com/aynp}{aynp}\\
+{\textbf{Codeforces}} {\sl (Specialist)}  \hfill \href{https://codeforces.com/profile/nand}{nand}\\
+\
+\end{document}
